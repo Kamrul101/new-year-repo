@@ -139,6 +139,18 @@
   background-color: rgb(17, 124, 53);
   color: #f3f3f3;
 }
+.hardwork {
+  border-radius: 10px;
+  border: none;
+
+  background-image: url("../images/gradient1.png"), url("../images/hard1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  width: 1100px;
+  margin-bottom: 130px;
+  margin-left: 230px;
+}
 
 .contact-container {
   display: flex;
@@ -191,4 +203,8 @@ a {
 .subs-btn:hover {
   background-color: rgb(17, 124, 53);
   color: #f3f3f3;
+}
+.hardwork-container {
+  padding-top: 60px;
+  padding-left: 60px;
 }
