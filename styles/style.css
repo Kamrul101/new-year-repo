@@ -14,7 +14,7 @@
 }
 .banner {
   padding-left: 200px;
-  padding-right: 1000px;
+  padding-right: 800px;
   transform: scaleX(-1);
   /* so again flipped only contents of the part */
 }
@@ -34,7 +34,7 @@
 }
 .btn-primary {
   background: #f15b22;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   padding: 15px;
   border: none;
   color: white;
@@ -42,6 +42,10 @@
   font-size: 20px;
   margin-top: 30px;
   margin-bottom: 170px;
+}
+.btn-primary:hover {
+  background-color: rgb(17, 124, 53);
+  color: #f3f3f3;
 }
 /* failure list section */
 .failure {
@@ -93,17 +97,20 @@
 .mindset {
   border-radius: 10px;
   border: none;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       90deg,
       #f15b22 0%,
       rgba(241, 91, 34, 0) 100%
     ),
-    url("../images/watch.png");
+    url("../images/watch.png"); */
+
+  /* background image overlay */
+  background-image: url("../images/gradient2.png"), url("../images/watch.png");
   background-repeat: no-repeat;
   background-position: center;
-  height: 280px;
+  height: 300px;
   width: 1100px;
-  margin-bottom: 30px;
+  margin-bottom: 130px;
   margin-left: 230px;
 }
 .mindset-container {
@@ -127,4 +134,61 @@
   color: #f15b22;
   border-radius: 5px;
   border: none;
+}
+.mindset-btn:hover {
+  background-color: rgb(17, 124, 53);
+  color: #f3f3f3;
+}
+
+.contact-container {
+  display: flex;
+  gap: 300px;
+  background-color: #151414;
+  color: white;
+  padding-left: 230px;
+  padding-right: 230px;
+  padding-top: 125px;
+  padding-bottom: 100px;
+}
+.future-container {
+}
+.future-title {
+  font-weight: 700;
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+.future-description {
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+.future-title,
+a {
+  margin-right: 20px;
+}
+.subs-title {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.email {
+  background-color: #151414;
+  color: #f3f3f3;
+  border: 1px solid white;
+  height: 40px;
+  width: 300px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.subs-btn {
+  height: 50px;
+  width: 150px;
+  color: #f15b22;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.subs-btn:hover {
+  background-color: rgb(17, 124, 53);
+  color: #f3f3f3;
 }
