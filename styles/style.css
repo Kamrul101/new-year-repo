@@ -59,15 +59,22 @@
   padding-bottom: 20px;
   margin-top: 300px;
 }
+/* plan list */
 .plan {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 120px;
 }
 .plan-container {
   display: flex;
   gap: 90px;
   margin-top: 50px;
   margin-left: 250px;
+}
+.future-plan {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  padding-bottom: 20px;
 }
 .plan-title {
   font-weight: 700;
@@ -80,4 +87,39 @@
   font-size: 25px;
   color: #737272;
   margin-top: 15px;
+}
+
+/* mindset section */
+.mindset {
+  border-radius: 10px;
+  border: none;
+  background-image: url("../images/watch.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 280px;
+  width: 1100px;
+  margin-bottom: 30px;
+  margin-left: 230px;
+}
+.mindset-container {
+  padding-left: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.mindset-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 25px;
+  /* padding-bottom: 20px; */
+}
+.mindset-btn {
+  height: 50px;
+  width: 150px;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #f15b22;
+  border-radius: 5px;
+  border: none;
 }
