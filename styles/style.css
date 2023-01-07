@@ -139,6 +139,7 @@
   background-color: rgb(17, 124, 53);
   color: #f3f3f3;
 }
+/* hard work section */
 .hardwork {
   border-radius: 10px;
   border: none;
@@ -151,7 +152,12 @@
   margin-bottom: 130px;
   margin-left: 230px;
 }
+.hardwork-container {
+  padding-top: 60px;
+  padding-left: 60px;
+}
 
+/* footer section */
 .contact-container {
   display: flex;
   gap: 300px;
@@ -203,8 +209,4 @@ a {
 .subs-btn:hover {
   background-color: rgb(17, 124, 53);
   color: #f3f3f3;
-}
-.hardwork-container {
-  padding-top: 60px;
-  padding-left: 60px;
 }
