@@ -93,7 +93,12 @@
 .mindset {
   border-radius: 10px;
   border: none;
-  background-image: url("../images/watch.png");
+  background-image: linear-gradient(
+      90deg,
+      #f15b22 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url("../images/watch.png");
   background-repeat: no-repeat;
   background-position: center;
   height: 280px;
@@ -104,7 +109,7 @@
 .mindset-container {
   padding-left: 60px;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 51px;
 }
 .mindset-title {
   font-weight: 700;
