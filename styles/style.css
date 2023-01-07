@@ -172,7 +172,8 @@ a {
 }
 .email {
   background-color: #151414;
-  color: #f3f3f3;
+  color: #ffffff;
+  font-size: 18px;
   border: 1px solid white;
   height: 40px;
   width: 300px;
